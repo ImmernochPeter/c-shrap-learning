@@ -1,1 +1,1 @@
-# c-shrap-lerning
+# c-shrap-learning
