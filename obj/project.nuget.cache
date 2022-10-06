@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kDvE9/YaI+2/mfd/kiIGGs9QADayHv9Slvcc/M7QirCkvrPwMwFVbWp2ba2BxmY0fDPPAIAD+G7x/3Pszs5SDw==",
+  "success": true,
+  "projectFilePath": "/home/peter/csharp/c-shrap-learning/c-shrap-learning.csproj",
+  "expectedPackageFiles": [
+    "/home/peter/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.9/microsoft.aspnetcore.app.ref.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
