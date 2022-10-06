@@ -1,0 +1,15 @@
+/home/peter/csharp/c-shrap-learning/obj/Debug/net6.0/c-shrap-learning.csproj.AssemblyReference.cache
+/home/peter/csharp/c-shrap-learning/obj/Debug/net6.0/c-shrap-learning.GeneratedMSBuildEditorConfig.editorconfig
+/home/peter/csharp/c-shrap-learning/obj/Debug/net6.0/c-shrap-learning.AssemblyInfoInputs.cache
+/home/peter/csharp/c-shrap-learning/obj/Debug/net6.0/c-shrap-learning.AssemblyInfo.cs
+/home/peter/csharp/c-shrap-learning/obj/Debug/net6.0/c-shrap-learning.csproj.CoreCompileInputs.cache
+/home/peter/csharp/c-shrap-learning/bin/Debug/net6.0/c-shrap-learning
+/home/peter/csharp/c-shrap-learning/bin/Debug/net6.0/c-shrap-learning.deps.json
+/home/peter/csharp/c-shrap-learning/bin/Debug/net6.0/c-shrap-learning.runtimeconfig.json
+/home/peter/csharp/c-shrap-learning/bin/Debug/net6.0/c-shrap-learning.dll
+/home/peter/csharp/c-shrap-learning/bin/Debug/net6.0/ref/c-shrap-learning.dll
+/home/peter/csharp/c-shrap-learning/bin/Debug/net6.0/c-shrap-learning.pdb
+/home/peter/csharp/c-shrap-learning/obj/Debug/net6.0/c-shrap-learning.dll
+/home/peter/csharp/c-shrap-learning/obj/Debug/net6.0/ref/c-shrap-learning.dll
+/home/peter/csharp/c-shrap-learning/obj/Debug/net6.0/c-shrap-learning.pdb
+/home/peter/csharp/c-shrap-learning/obj/Debug/net6.0/c-shrap-learning.genruntimeconfig.cache
