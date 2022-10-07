@@ -48,9 +48,55 @@ namespace Planets
 				Environment.Exit(1);
 			};
 			user_planet.water = Double.Parse(input);
-			
-
-
+			Console.WriteLine("How hot should it be there? (in K)");
+			input = Console.ReadLine();
+			if (input is null){
+				Environment.Exit(1);
+			};
+			user_planet.temprature = Double.Parse(input);
+			Console.WriteLine("Should life be possible there? [y]es/[n]o");
+			input = Console.ReadLine();
+			if (input is null){
+				Environment.Exit(1);
+			};
+			if (input == "y"){
+				user_planet.life = true;
+			}
+			else
+			{
+				user_planet.life = false;	
+			};
+			Console.WriteLine("Should your planet have an atmosphere? [y]es/[n]o");
+			input = Console.ReadLine();
+			if (input is null){
+				Environment.Exit(1);
+			};
+			if (input == "y"){
+				user_planet.atmosphere = true;
+			}
+			else
+			{
+				user_planet.atmosphere = false;
+			};
+			if (user_planet.life){
+				Console.WriteLine("How many humans should live there?");
+				input = Console.ReadLine();
+				if (input is null){
+					Environment.Exit(1);
+				};
+				user_planet.humancount = long.Parse(input);
+			}
+			Console.WriteLine("===============================");
+			Console.WriteLine("Your planet:");
+			Console.WriteLine("Name: " + user_planet.name);
+			Console.WriteLine("Volume: " + user_planet.volume + "x times Earth");
+			Console.WriteLine("Water: " + user_planet.water + "%");
+			Console.WriteLine("Temprature: " + user_planet.temprature + "K");
+			Console.WriteLine("Life: " + user_planet.life);
+			Console.WriteLine("Atmosphere: " + user_planet.atmosphere);
+			Console.WriteLine("Humans: " + user_planet.humancount);
+			Console.WriteLine("===============================");
+			Environment.Exit(0);
 
 
 		}
