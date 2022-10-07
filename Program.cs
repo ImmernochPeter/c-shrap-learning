@@ -16,8 +16,9 @@ namespace Planets
 		{
 			Console.WriteLine("Hello an welcome!");
 			Console.WriteLine("Do you wan't to build a Planet? [y]es/[n]o");
-			string input = Console.ReadLine();
+			var input = Console.ReadLine();
 			if (input == "n"){
+				Environment.Exit(0);
 			};
 			var user_planet = new Planet{
 				name = "",
@@ -28,9 +29,28 @@ namespace Planets
 				atmosphere = false,
 				humancount = 2,
 			};
-			Console.WriteLine("How should I call your Planet?");
-			input = console.ReadLine();
+			Console.WriteLine("How should I call your planet?");
+			input = Console.ReadLine();
+			if (input is null){
+				Environment.Exit(1);
+			};
 			user_planet.name = input;
+			Console.WriteLine("How big should your planet be?"); 
+			Console.WriteLine("Please enter a number. (Multiple of earth Volume)");
+			input = Console.ReadLine();
+			if (input is null){
+				Environment.Exit(1);
+			};
+			user_planet.volume = Double.Parse(input);
+			Console.WriteLine("How much % of your Planet should be water?");
+			input = Console.ReadLine();
+			if (input is null){
+				Environment.Exit(1);
+			};
+			user_planet.water = Double.Parse(input);
+			
+
+
 
 
 		}
